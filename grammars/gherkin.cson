@@ -1,18 +1,18 @@
 "fileTypes": [
     'feature'
 ]
-"name": 'Gherkin'
+"name": 'Gherkin EN & RU'
 "patterns": [
     {
-        "match": '\\s*(Scenario\\:|Feature\\:|Scenario Outline\\:|Background\\:|Examples\\:)'
+        "match": '\\s*(Scenario\\:|Feature\\:|Scenario Outline\\:|Background\\:|Examples\\:|Функция\\:|Функционал\\:|Свойство\\:|Предыстория\\:|Контекст\\:|Сценарий\\:|Структура сценария\\:|Примеры\\:)'
         "name": 'keyword.gherkin'
     }
     {
-        "match": '\\s*(Given|Then|When|And|But)'
+        "match": '\\s*(Given|Then|When|And|But|Допустим|Дано|Пусть|Если|Когда|То|Тогда|И|К тому же|Также|Но|А)'
         "name": 'support.class.gherkin'
     }
     {
-        "match": '(?<=\\s|^)(@[A-Za-z0-9_\\-]+)'
+        "match": '(?<=\\s|^)(@[A-Za-zА-Яа-я0-9_\\-]+)'
         "name": 'entity.name.function.decorator.gherkin'
     }
     {
