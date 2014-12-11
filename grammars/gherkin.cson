@@ -8,7 +8,7 @@
         "name": 'keyword.gherkin'
     }
     {
-        "match": '\\s*(Given|Then|When|And|But|Допустим|Дано|Пусть|Если|Когда|То|Тогда|И|К тому же|Также|Но|А)'
+        "match": '\\s*(Given|Then|When|And|But|Допустим|Дано|Пусть|Если|К тому же|Также|Когда|Тогда|То|И|Но|А)\\b'
         "name": 'support.class.gherkin'
     }
     {
